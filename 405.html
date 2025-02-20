@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nawaf Naif's Website
+  </title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="profile-picture-fixed">
+    <img src="profile.jpg" alt="Nawaf's Picture" class="profile-img" />
+  </div>
+
+  <header>
+    <h1>Nawaf Naif Bahlas</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><button onclick="showSection('home')">Home</button></li>
+      <li><button onclick="showSection('about')">CV</button></li>
+      <li><button onclick="showSection('schedule')">Schedule</button></li>
+      <li><button onclick="showSection('contact')">Contact</button></li>
+    </ul>
+  </nav>
+
+  <main>
+    <!-- HOME SECTION -->
+    <section id="home" class="active">
+      <h2>Welcome</h2>
+      <div class="home-content">
+        <div class="home-text">
+          <p>
+            Hello, I'm <strong>Nawaf Naif</strong> and I am a student at King Abdulaziz University,
+            currently pursuing my studies in the Faculty of Computer Science and Information Technology.
+            I have a strong passion for technology, problem-solving, and innovation, and I am constantly
+            looking for opportunities to expand my knowledge in the fields of software development,
+            data science, and cybersecurity.
+          </p>
+          <p>
+            Throughout my academic journey, I have gained hands-on experience in programming, algorithms,
+            database management, and system analysis. I am particularly interested in exploring new technologies,
+            enhancing my coding skills, and working on real-world projects that challenge my critical thinking abilities.
+          </p>
+          <p>
+            Beyond academics, I enjoy collaborating on tech-related projects, participating in hackathons, and
+            staying up to date with the latest advancements in the IT industry. My goal is to contribute to
+            innovative solutions that can make a meaningful impact in the world of technology.
+          </p>
+          <p>
+            I am always eager to learn, grow, and connect with like-minded individuals who share a passion for technology.
+            Feel free to reach out to me!
+          </p>
+
+          <a
+            href="https://www.linkedin.com/in/nawaf-bahlas-b5471b183/"
+            target="_blank"
+            class="linkedin-btn"
+            aria-label="LinkedIn Profile"
+          >
+            <img src="linkedin.png" alt="LinkedIn Icon" class="linkedin-icon" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I’m a passionate individual who loves technology, teaching, and research.
+        I have a background in Information Technology and Software Engineering. My main interests
+        include Artificial Intelligence, especially Deep Learning and Neural Networks.
+      </p>
+      <p>
+        Feel free to explore my schedule or reach out in the contact section if
+        you’d like to connect.
+      </p>
+      <hr>
+      <h3>Skills</h3>
+      <ul>
+        <li>Java and Python Programming</li>
+        <li>Artificial Intelligence (NLP, Deep Learning)</li>
+        <li>FullStack Development</li>
+      </ul>
+      <hr>
+      <h3>Experience</h3>
+      <p>
+        I participated in multiple hackathons, honing my problem-solving and teamwork skills.
+        My biggest achievement was winning 1st place in the <strong>Engineering Creativity Marathon</strong>,
+        where my team developed an innovative, high-impact solution.
+      </p>
+    </section>
+
+    <!-- SCHEDULE SECTION -->
+    <section id="schedule">
+      <h2>Weekly Schedule</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>Time</th>
+            <th>Course</th>
+            <th>Section</th>
+            <th>Instructor</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="3">Sunday</td>
+            <td>9:00 AM - 9:50 AM</td>
+            <td>CPIT380</td>
+            <td>IT1</td>
+            <td>Dr. Saym</td>
+          </tr>
+          <tr>
+            <td>10:00 AM - 10:50 AM</td>
+            <td>CPIT425</td>
+            <td>IT2</td>
+            <td>Dr. Hussam</td>
+          </tr>
+          <tr>
+            <td>3:00 PM - 3:50 PM</td>
+            <td>CPIT405</td>
+            <td>SEC103</td>
+            <td>Dr. Ahmad Tayeb</td>
+          </tr>
+
+          <tr>
+            <td>Monday</td>
+            <td>2:30 AM - 3:45 AM</td>
+            <td>CPIS334</td>
+            <td>IT1</td>
+            <td>Dr. Ayman</td>
+          </tr>
+
+          <tr>
+            <td rowspan="3">Tuesday</td>
+            <td>9:00 AM - 9:50 AM</td>
+            <td>CPIT380</td>
+            <td>IT1</td>
+            <td>Dr. Saym</td>
+          </tr>
+          <tr>
+            <td>10:00 AM - 10:50 AM</td>
+            <td>CPIT425</td>
+            <td>IT2</td>
+            <td>Dr. Hussam</td>
+          </tr>
+          <tr>
+            <td>3:00 PM - 3:50 PM</td>
+            <td>CPIT405</td>
+            <td>SEC103</td>
+            <td>Dr. Ahmad Tayeb</td>
+          </tr>
+
+          <tr>
+            <td>Wednesday</td>
+            <td>2:30 AM - 3:45 AM</td>
+            <td>CPIS334</td>
+            <td>IT1</td>
+            <td>Dr. Ayman</td>
+          </tr>
+
+          <tr>
+            <td rowspan="3">Thursday</td>
+            <td>9:00 AM - 9:50 AM</td>
+            <td>CPIT380</td>
+            <td>IT1</td>
+            <td>Dr. Saym</td>
+          </tr>
+          <tr>
+            <td>10:00 AM - 10:50 AM</td>
+            <td>CPIT425</td>
+            <td>IT2</td>
+            <td>Dr. Hussam</td>
+          </tr>
+          <tr>
+            <td>3:00 PM - 3:50 PM</td>
+            <td>CPIT405</td>
+            <td>SEC103</td>
+            <td>Dr. Ahmad Tayeb</td>
+          </tr>
+        </tbody>
+      </table>
+      <hr style="background-color: black; height: 2px; border: none; margin: 2rem 0;" />
+
+      <h3>Courses I Took</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Course Name</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Database Systems</td>
+          </tr>
+          <tr>
+            <td>Software Engineering</td>
+          </tr>
+          <tr>
+            <td>Networking</td>
+          </tr>
+          <tr>
+            <td>Project Management for IT</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+<!-- CONTACT SECTION -->
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>You can reach me at:</p>
+    <p>
+      <strong>Email:</strong> 
+      <a href="mailto:your-email@example.com" class="email-link">nawafnaif1980@gmail.com</a>
+    </p>
+  
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required />
+  
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" required />
+  
+      <label for="description">Message</label>
+      <textarea id="description" name="description" rows="5" required></textarea>
+  
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+  </section>
+  </main>
+
+  <script>
+
+    function showSection(sectionId) {
+      const sections = document.querySelectorAll('main section');
+      sections.forEach(section => {
+        section.classList.remove('active');
+      });
+      const target = document.getElementById(sectionId);
+      if (target) {
+        target.classList.add('active');
+      }
+    }
+  </script>
+
+  <footer>
+    <p>&copy; 2025 Nawaf Naif Bahlas. All rights reserved.</p>
+  </footer>
+</body>
+</html>
